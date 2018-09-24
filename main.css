@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+::-webkit-scrollbar {
+    display: none;
+    }
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
+
+.container{
+    overflow: hidden;
+   
+}
+
+
+.wrapper{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    padding: 70px 0;
+    text-align: center;
+}
+
+.logo{
+    display: inline-block;
+    justify-content: center;
+    margin: 0 auto;
+    align-self: center;
+    
+}
+
+.socialNetworks{
+    position: right;
+    right: 0;
+    align-self: flex-end;   
+    display: inline-block;
+    
+}
+
+
+svg{
+    position: right;
+    vertical-align: middle;
+    height: 43px;
+    opacity: 1;
+    width: 43px;
+}
+
+
+header{
+    background-image: url("./static/images/Node.js-Introduction.jpg");
+    background-position: 50% 50%;
+    /* position:fixed; */
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 800px;
+    margin-bottom: 40px;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 25px;
+    overflow: hidden;
+}
+
+img{
+    height: 400px;
+}
