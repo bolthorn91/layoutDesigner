@@ -22,10 +22,14 @@ html, body{
     margin: 0 auto;
 }
 
-nav{
+nav{   
+    position: fixed;
+    top: 0;
+    width: 100%;
     display: flex;
-    padding: 70px 0;
+    padding: 25px 0;
     text-align: center;
+    background-color: white;
 }
 
 .logo{
@@ -63,11 +67,12 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 800px;
+    height: 100vh;
     margin-bottom: 40px;
 }
 
 .gallery{
+    color: black;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 1fr 1fr;
@@ -75,6 +80,8 @@ header{
     overflow: hidden;
 }
 
-img{
-    height: 400px;
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
